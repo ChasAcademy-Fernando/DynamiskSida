@@ -1,0 +1,13 @@
+{
+    "workPlaces":[
+       {"Work":"Bun Meat Bun","Discription":"Stockholms populäraste hamburgerkedjor med varierande uppgifter och fokus på kundbemötande!" }, 
+       {"Work":"Ikea","Discription":"Jag ser till att kunden väljer rätt säng för rätt person samt höjer kundensupplevelse i varuhuset." },
+       {"Work":"Spotify","Discription":"Skapade egen house musik som släpptes på Spotify." }
+    ],
+    "education":[
+        {"School":"NTI Stockholm", "Discription": "Jag pluggade speldesign men fick även lära mig lite webbutveckling samt datateknik"},
+        {"School":"ChasAcademy", "Discription":"Jag pluggar till att bli webb- och apputvecklare med fokus på JavaScript"},
+        {"School":"Coursera Meta", "Discription": "En online kurs av Meta med fokus på frontend utveckling inom React "},
+        {"School": "Coursera Google", "Discription":"En online kurs av Google med fokus på marknadsföring"}
+    ]
+}
