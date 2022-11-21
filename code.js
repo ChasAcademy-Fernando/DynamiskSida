@@ -58,6 +58,7 @@ allSlides[newIndex].dataset.active = true //give the new slide the active data s
 })
 })
     getData()
+    console.log("your script is working")
     
  
     
