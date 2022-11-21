@@ -1,5 +1,5 @@
 async function getData() {
-    let response = await fetch('/data.json');
+    let response = await fetch('data.json');
     let placeOfWork = document.getElementById("grid-content").getElementsByTagName("h3"); //create an array with all h3 content inside of the work section of the page
     let discOfWork = document.getElementById("grid-content").getElementsByTagName("p"); //create an array with all p content inside of the work section of the page
     let placeOfStudy = document.getElementById("edu").getElementsByTagName("h3"); //create an array with all h3 content inside of the work section of the page
@@ -11,7 +11,7 @@ async function getData() {
       placeOfWork[1].innerHTML = data.workPlaces[1].Work;
       placeOfWork[2].innerHTML = data.workPlaces[2].Work; */ 
       // Kolla upp om man kan göra det i en for-loop
-      
+      console.log("your script is working")
       for (let i = 0; i < data.workPlaces.length; i++) { //Loopa genom alla arbetsplatser, kan man göra det med foreach?
         
        placeOfWork[i].innerHTML = data.workPlaces[i].Work;
@@ -58,7 +58,7 @@ allSlides[newIndex].dataset.active = true //give the new slide the active data s
 })
 })
     getData()
-    console.log("your script is working")
+    
     
  
     
